@@ -1,0 +1,35 @@
+Manage the student record in application
+
+  Welcome to my Student record management system
+  
+1. - add student record
+2. - view all the student record
+3. - view particular student on the basis of roll no
+4. - delete the student record on the basis of roll no
+5. - edit student on the basis of roll no
+6. - to exit form the system
+
+1 -
+     rollNo, name, contactNo
+
+2 - 
+     1,sachin,43252
+     2,juhi,534253
+     
+3 -  Enter rollNo
+              if rollNo exists then show the record
+              else print no student record found
+              
+4 - Enter rollNo 
+              if rollNo exist then delete student successfully
+              else print no student record found
+              
+5 - Enter rollNo to edit the student record
+              if rollNo exists then enter new name, enter new contact no, return edited successfully
+              else print no student record found
+
+6 - Thank you for student record management system.
+
+
+
+Note- all the processes should be occur recursively until user is giving input as 6 to exit form the application. 
